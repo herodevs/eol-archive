@@ -1,0 +1,28 @@
+{
+  "name": "eol-archive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "purls-to-json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert-purls:to-manufacturers": "node tools/purls-to-json.js -f nes-package-forkpoint.purls.json -o m",
+    "convert-purls:to-eoldate": "node tools/purls-to-json.js -f nes-package-forkpoint.purls.json -o e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herodevs/eol-archive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herodevs/eol-archive/issues"
+  },
+  "homepage": "https://github.com/herodevs/eol-archive#readme",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.797.0",
+    "minimist": "^1.2.8",
+    "packageurl-js": "^2.0.1",
+    "semver": "^7.7.1"
+  }
+}
