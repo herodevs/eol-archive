@@ -12191,24 +12191,6 @@
     "ecosystem": "npm",
     "components": [
       {
-        "name": "@nuxt/nuxt-telemetry",
-        "ecosystem": "npm",
-        "cycles": [
-          {
-            "purl": "pkg:npm/%40nuxt/nuxt-telemetry@1.5.0",
-            "cycle": "1.5.0",
-            "releaseDate": "",
-            "eol": true,
-            "latest": "",
-            "latestReleaseDate": "",
-            "link": "https://www.npmjs.com/package/@nuxt/nuxt-telemetry/v/1.5.0",
-            "lts": false,
-            "support": "",
-            "extendedSupport": true
-          }
-        ]
-      },
-      {
         "name": "@angular/animations",
         "ecosystem": "npm",
         "cycles": [
@@ -13102,6 +13084,24 @@
             "latest": "",
             "latestReleaseDate": "",
             "link": "https://www.npmjs.com/package/@nuxt/generator/v/2.18.1",
+            "lts": false,
+            "support": "",
+            "extendedSupport": true
+          }
+        ]
+      },
+      {
+        "name": "@nuxt/nuxt-telemetry",
+        "ecosystem": "npm",
+        "cycles": [
+          {
+            "purl": "pkg:npm/%40nuxt/nuxt-telemetry@1.5.0",
+            "cycle": "1.5.0",
+            "releaseDate": "",
+            "eol": true,
+            "latest": "",
+            "latestReleaseDate": "",
+            "link": "https://www.npmjs.com/package/@nuxt/nuxt-telemetry/v/1.5.0",
             "lts": false,
             "support": "",
             "extendedSupport": true

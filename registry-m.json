@@ -10839,22 +10839,6 @@
     "manufacturer": "npm",
     "components": [
       {
-        "name": "@nuxt/nuxt-telemetry",
-        "ecosystem": "npm",
-        "aliases": [],
-        "reference": "",
-        "lifecycles": [
-          {
-            "purl": "pkg:npm/%40nuxt/nuxt-telemetry@1.5.0",
-            "eolField": "isEol",
-            "range": "1.5.0",
-            "isEol": true,
-            "isDefault": true,
-            "supportLevel": "STANDARD_SUPPORT"
-          }
-        ]
-      },
-      {
         "name": "@angular/animations",
         "ecosystem": "npm",
         "aliases": [],
@@ -11648,6 +11632,22 @@
             "purl": "pkg:npm/%40nuxt/generator@2.18.1",
             "eolField": "isEol",
             "range": "2.18.1",
+            "isEol": true,
+            "isDefault": true,
+            "supportLevel": "STANDARD_SUPPORT"
+          }
+        ]
+      },
+      {
+        "name": "@nuxt/nuxt-telemetry",
+        "ecosystem": "npm",
+        "aliases": [],
+        "reference": "",
+        "lifecycles": [
+          {
+            "purl": "pkg:npm/%40nuxt/nuxt-telemetry@1.5.0",
+            "eolField": "isEol",
+            "range": "1.5.0",
             "isEol": true,
             "isDefault": true,
             "supportLevel": "STANDARD_SUPPORT"
