@@ -12188,29 +12188,6 @@
     ]
   },
   {
-    "ecosystem": "node",
-    "components": [
-      {
-        "name": "node",
-        "ecosystem": "node",
-        "cycles": [
-          {
-            "purl": "pkg:node/node@v20.19.1",
-            "cycle": "v20.19.1",
-            "releaseDate": "",
-            "eol": true,
-            "latest": "",
-            "latestReleaseDate": "",
-            "link": "https://www.herodevs.com",
-            "lts": false,
-            "support": "",
-            "extendedSupport": true
-          }
-        ]
-      }
-    ]
-  },
-  {
     "ecosystem": "npm",
     "components": [
       {
@@ -13719,24 +13696,6 @@
             "latest": "",
             "latestReleaseDate": "",
             "link": "https://www.npmjs.com/package/jquery-essentials/v/1.4.5",
-            "lts": false,
-            "support": "",
-            "extendedSupport": true
-          }
-        ]
-      },
-      {
-        "name": "lodash",
-        "ecosystem": "npm",
-        "cycles": [
-          {
-            "purl": "pkg:npm/lodash@4.17.21",
-            "cycle": "4.17.21",
-            "releaseDate": "",
-            "eol": true,
-            "latest": "",
-            "latestReleaseDate": "",
-            "link": "https://www.npmjs.com/package/lodash/v/4.17.21",
             "lts": false,
             "support": "",
             "extendedSupport": true

@@ -10836,27 +10836,6 @@
     ]
   },
   {
-    "manufacturer": "node",
-    "components": [
-      {
-        "name": "node",
-        "ecosystem": "node",
-        "aliases": [],
-        "reference": "",
-        "lifecycles": [
-          {
-            "purl": "pkg:node/node@v20.19.1",
-            "eolField": "isEol",
-            "range": "v20.19.1",
-            "isEol": true,
-            "isDefault": true,
-            "supportLevel": "STANDARD_SUPPORT"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "manufacturer": "npm",
     "components": [
       {
@@ -12197,22 +12176,6 @@
             "purl": "pkg:npm/jquery-essentials@1.4.5",
             "eolField": "isEol",
             "range": "1.4.5",
-            "isEol": true,
-            "isDefault": true,
-            "supportLevel": "STANDARD_SUPPORT"
-          }
-        ]
-      },
-      {
-        "name": "lodash",
-        "ecosystem": "npm",
-        "aliases": [],
-        "reference": "",
-        "lifecycles": [
-          {
-            "purl": "pkg:npm/lodash@4.17.21",
-            "eolField": "isEol",
-            "range": "4.17.21",
             "isEol": true,
             "isDefault": true,
             "supportLevel": "STANDARD_SUPPORT"
