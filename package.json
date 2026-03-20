@@ -5,8 +5,8 @@
   "main": "purls-to-json.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "convert-purls:to-manufacturers": "node tools/purls-to-json.js -f nes-package-forkpoint.purls.json -o m",
-    "convert-purls:to-eoldate": "node tools/purls-to-json.js -f nes-package-forkpoint.purls.json -o e"
+    "convert-purls:to-manufacturers": "node tools/purls-to-json.js -f canonical-list.json -o m",
+    "convert-purls:to-eoldate": "node tools/purls-to-json.js -f canonical-list.json -o e"
   },
   "repository": {
     "type": "git",
